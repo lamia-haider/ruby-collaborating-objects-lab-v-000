@@ -24,4 +24,8 @@ class Artist
     self.all.detect do |artist| artist.name == name || self.new(name)
     end
   end
+
+  def print_songs
+    print self.songs
+  end
 end
