@@ -15,4 +15,6 @@ class Artist
   def save
     @@all << self
   end
+
+  def self.all? { |e|  }
 end
