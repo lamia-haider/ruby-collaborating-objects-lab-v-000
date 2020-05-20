@@ -24,6 +24,4 @@ class Artist
     if self.all.detect do |artist| artist.name == name || self.new(name)
     end
   end
-
-
 end
