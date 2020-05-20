@@ -16,5 +16,7 @@ class Artist
     @@all << self
   end
 
-  def self.all? { |e|  }
+  def self.all
+    @@all
+  end
 end
